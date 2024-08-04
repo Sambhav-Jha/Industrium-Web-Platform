@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fondamento:ital@0;1&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fondamento:ital@0;1&display=swap");
 
 .input {
   display: flex;
@@ -17,13 +16,15 @@
   background-color: gray;
   font-size: larger;
   font-family: Fira Code;
-
 }
 
-.value:hover, .value:active {
+.value:hover,
+.value:active {
   background-color: #393737;
   color: white;
-  box-shadow: rgba(0, 0, 0, 0.23) 0px -4px 1px 0px inset, rgba(255, 255, 255, 0.17) 0px -1px 1px 0px, rgba(0, 0, 0, 0.17) 0px 2px 4px 1px;
+  box-shadow: rgba(0, 0, 0, 0.23) 0px -4px 1px 0px inset,
+    rgba(255, 255, 255, 0.17) 0px -1px 1px 0px,
+    rgba(0, 0, 0, 0.17) 0px 2px 4px 1px;
   transition: 0.2s ease;
   border-radius: 6px;
   padding-block: 5px;
@@ -54,10 +55,14 @@
 .icon {
   display: flex;
   justify-content: center;
-  
-  position: relative;
+
+  position: a;
   fill: #3d3d3e;
   height: 20px;
   transform: translateX(1850%) translateY(50%);
   opacity: 1;
- }  
+}
+
+.search_bar input:focus + .icon {
+  right: 40px;
+}
