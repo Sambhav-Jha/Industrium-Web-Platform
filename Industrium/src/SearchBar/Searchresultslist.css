@@ -1,0 +1,17 @@
+.results-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    width: 10%;
+    background-color: white;
+    box-shadow: 0px 0px 8px #ddd;
+    border-radius: 8px;
+    margin-top: 1rem;
+
+    max-height: 300px;
+    overflow-y: scroll;
+
+    transform: translateX(685px);
+}
