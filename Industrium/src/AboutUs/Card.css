@@ -1,0 +1,29 @@
+.card{
+    border: 2px solid hsl(0, 0%, 0%);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(158, 100%, 50%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    max-width: 250px;
+    display: inline-block;
+    cursor: pointer;
+}
+.card:hover{
+    border: 1px solid wheat;
+    border-radius: 15px;
+    scale:1.01;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+    transition: 0.3s;
+
+}
+.n{
+    font-size: larger;
+    font-weight:normal;
+}
+.photu{
+    border-radius: 50%;
+    width: 200px;
+}

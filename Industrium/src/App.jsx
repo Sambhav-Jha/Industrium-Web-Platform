@@ -23,7 +23,6 @@ function App() {
             <Route path="/about" element={<About/>}/>
           </Routes>
         </div>
-      <Navbar></Navbar>
       <Searchbar setResults={setResults} />
       <SearchResultsList results={results} />
     </>
