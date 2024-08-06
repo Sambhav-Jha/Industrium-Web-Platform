@@ -17,6 +17,9 @@
   background-color: gray;
   font-size: larger;
   font-family: Fira Code;
+
+  transform: translateY(13%);
+
 }
 
 .value:hover,
