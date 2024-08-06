@@ -1,0 +1,37 @@
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: 100px;
+    position: relative;
+}
+
+.input-wrapper input {
+    width: 350px;
+    font-size: 18px;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    transition: 0.3s ease-in-out;
+}
+
+.input-wrapper input:focus {
+    width: 450px;
+
+}
+
+.input-wrapper input:focus + #search-icon {
+    transform: translateX(215px) translateY(-50%);
+}
+
+.input-wrapper #search-icon {
+    position: absolute;
+    top: 50%;
+    transform: translateX(170px) translateY(-50%);
+    color: #555;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
