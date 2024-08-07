@@ -6,7 +6,7 @@ export default function WhyIndustrium() {
       <h2>WHY INDUSTRIUM</h2>
       <div className="content">
         <div className="box">
-          <h3>Welcome to Industrium</h3>
+          <h3>Welcome to Industrium:</h3>
           <p>
             "  In the fast-growing industrial sector,
             access to accurate and up-to-date information on industrial parts

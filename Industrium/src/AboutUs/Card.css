@@ -1,5 +1,6 @@
 .card{
     border: 2px solid hsl(0, 0%, 0%);
+    background-color: rgb(194, 194, 194);
     color: black;
     border-radius: 10px;
     box-shadow: 5px 5px 5px hsla(158, 100%, 50%, 0.1);
@@ -7,16 +8,17 @@
     margin: 10px;
     text-align: center;
     font-size: large;
-    max-width: 250px;
+    max-width: 300px;
     display: inline-block;
     cursor: pointer;
+    transition: 0.3s;
 }
 .card:hover{
     border: 1px solid wheat;
+    background-color: rgb(222, 219, 219);
     border-radius: 15px;
     scale:1.01;
     box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
-    transition: 0.3s;
 
 }
 .n{
@@ -26,4 +28,5 @@
 .photu{
     border-radius: 50%;
     width: 200px;
+    opacity: 1;
 }
