@@ -1,0 +1,32 @@
+.indcard{
+    border: 2px solid hsl(0, 0%, 0%);
+    background-color: rgb(194, 194, 194);
+    color: black;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px hsla(285, 83%, 37%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    font-size: large;
+    max-width: 300px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.indcard:hover{
+    border: 1px solid wheat;
+    background-color: rgb(222, 219, 219);
+    border-radius: 15px;
+    scale:1.01;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 0%, 0.1);
+
+}
+.n{
+    font-size: larger;
+    font-weight:normal;
+}
+.phot{
+    border-radius: 10px;
+    width: 200px;
+    opacity: 1;
+}
