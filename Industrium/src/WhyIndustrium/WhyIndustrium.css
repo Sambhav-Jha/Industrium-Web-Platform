@@ -25,12 +25,11 @@
     width: 850px;
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
     border-radius: 10px;
-    transition: 3s; 
+    transition: all 0.3s ease-in-out; 
   }
   
   .box:hover {
     box-shadow: 0 0 40px rgba(0, 0, 0, 0.1); 
-    border: 0.1px solid hsl(0, 0%, 20%);
   }
   
   .box h3 {
